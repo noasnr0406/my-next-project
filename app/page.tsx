@@ -1,13 +1,12 @@
-import styles from "./page.module.css"
-export default function Home() {
-  const name= "世界";
+import Styles from "./page.module.css";
 
+export default function Home() {
   return (
   <div>
-    <h1>テクノロジーの力で{name}を変える</h1>
-    <p>私たちは市場をリードしているグロー
-    バルテックカンパニーです。</p>
-   
-  </div>
+    <h1 className={Styles.title}>テクノロジーの力で世界を変える</h1>
+    <p className={Styles.description}>
+      私たちは市場をリードしているグローバルテックカンパニーです。
+    </p>
+   </div>
   );
 }
