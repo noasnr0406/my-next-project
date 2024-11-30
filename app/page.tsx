@@ -1,4 +1,4 @@
-import { title } from "process";
+  import { title } from "process";
 import Styles from "./page.module.css";
 import Image from "next/image";
 
@@ -100,4 +100,4 @@ export default function Home() {
       </section>
     </>
   );
-} 
+}  
