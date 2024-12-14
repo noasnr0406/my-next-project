@@ -1,15 +1,7 @@
 import Image from 'next/image';
 import styles from './index.module.css';
+import {News} from "@/app/_libs/microcms";
 
-type News = {
-    id: string;
-    title: string;
-    category: {
-        name: string
-    };
-    publisheAt: string;
-    createdAt: string;
-};
 
 type Props = {
   news: News[];
