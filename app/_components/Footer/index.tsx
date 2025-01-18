@@ -14,4 +14,7 @@ export
               </li>
             </ul>
           </nav>
-           <p className={styles.cr}>©︎ SIMPLE. ALL Rights     
+           <p className={styles.cr}>©︎ SIMPLE. ALL Rights Reserved 2024</p>
+          </footer>
+    );
+  }        
