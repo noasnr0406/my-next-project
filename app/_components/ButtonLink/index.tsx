@@ -6,9 +6,9 @@ type Props = {
 };
 
 export default function ButtonLink({href, children}:Props) {
-　return (
+  return (
     <a href={href} className={styles.button}>
        {children}
-    </a>                                                                                                                                                                                                                                                                                                                                                                  rm5nt5　　　　　
-  );
+    </a> 
+  )
 } 

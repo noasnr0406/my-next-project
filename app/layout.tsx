@@ -1,5 +1,5 @@
 import "./globals.css";
-import Header from "./_components/Header";
+// import Header from "./_components/Header";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -19,6 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    
+    <>
+      {children}
+    </>
   );
 }
