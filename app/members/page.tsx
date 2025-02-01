@@ -58,10 +58,8 @@ export default function Page(){
                 />
                 <dl>
                     <dt className={styles.name}>{member.name}</dt>
-                    <dd className="">
-                        <p className={styles.position}>{member.position}</p>
-                        <p className={styles.profile}>{member.profile}</p>
-                    </dd>
+                    <dd className={styles.position}>{member.position}</dd>
+                        <dd className={styles.profile}>{member.profile}</dd>
                 </dl>
             </li>
         ))}
